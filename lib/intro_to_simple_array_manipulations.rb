@@ -12,7 +12,7 @@ end
 
 def pop_with_args(array)
   new_array = []
-  new_array.unshift(array.pop)
+  new_array.push(array.pop)
   new_array.unshift(array.pop)
   new_array
 end
