@@ -50,6 +50,6 @@ def using_delete(array,string)
 #  new_array
 end
 
-def using_delete_at(array)
-
+def using_delete_at(array,num)
+  array.delete_at(num)
 end
